@@ -1,6 +1,6 @@
 alert(1);
 
-var Quadtree = function(int pLevel, x, y, width, height){
+function Quadtree(int pLevel, x, y, width, height){
 	this.MAX_OBJECTS = 10;
 	this.MAX_LEVELS  = 5;
 
