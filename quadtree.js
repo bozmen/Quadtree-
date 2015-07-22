@@ -104,4 +104,6 @@
 		return returnObjects.concat(this.objects);
 	};
 
-	window.Quadtree = Quadtree;
+	window.Quadtree = Quadtree;	
+
+})(window, Math);
