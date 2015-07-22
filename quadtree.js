@@ -1,4 +1,4 @@
-
+;(function(window, Math) {
 
 	function Quadtree(int pLevel, x, y, width, height){
 		this.MAX_OBJECTS = 10;
@@ -105,4 +105,6 @@
 		return returnObjects.concat(this.objects);
 	};
 
-	window.Quadtree = Quadtree;
+	window.Quadtree = Quadtree;	
+
+})(window, Math);
